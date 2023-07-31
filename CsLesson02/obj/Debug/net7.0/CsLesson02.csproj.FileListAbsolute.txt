@@ -1,0 +1,15 @@
+C:\Users\weich\OneDrive\文檔\C#lesson\CsLesson02\bin\Debug\net7.0\CsLesson02.exe
+C:\Users\weich\OneDrive\文檔\C#lesson\CsLesson02\bin\Debug\net7.0\CsLesson02.deps.json
+C:\Users\weich\OneDrive\文檔\C#lesson\CsLesson02\bin\Debug\net7.0\CsLesson02.runtimeconfig.json
+C:\Users\weich\OneDrive\文檔\C#lesson\CsLesson02\bin\Debug\net7.0\CsLesson02.dll
+C:\Users\weich\OneDrive\文檔\C#lesson\CsLesson02\bin\Debug\net7.0\CsLesson02.pdb
+C:\Users\weich\OneDrive\文檔\C#lesson\CsLesson02\obj\Debug\net7.0\CsLesson02.csproj.AssemblyReference.cache
+C:\Users\weich\OneDrive\文檔\C#lesson\CsLesson02\obj\Debug\net7.0\CsLesson02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\weich\OneDrive\文檔\C#lesson\CsLesson02\obj\Debug\net7.0\CsLesson02.AssemblyInfoInputs.cache
+C:\Users\weich\OneDrive\文檔\C#lesson\CsLesson02\obj\Debug\net7.0\CsLesson02.AssemblyInfo.cs
+C:\Users\weich\OneDrive\文檔\C#lesson\CsLesson02\obj\Debug\net7.0\CsLesson02.csproj.CoreCompileInputs.cache
+C:\Users\weich\OneDrive\文檔\C#lesson\CsLesson02\obj\Debug\net7.0\CsLesson02.dll
+C:\Users\weich\OneDrive\文檔\C#lesson\CsLesson02\obj\Debug\net7.0\refint\CsLesson02.dll
+C:\Users\weich\OneDrive\文檔\C#lesson\CsLesson02\obj\Debug\net7.0\CsLesson02.pdb
+C:\Users\weich\OneDrive\文檔\C#lesson\CsLesson02\obj\Debug\net7.0\CsLesson02.genruntimeconfig.cache
+C:\Users\weich\OneDrive\文檔\C#lesson\CsLesson02\obj\Debug\net7.0\ref\CsLesson02.dll
