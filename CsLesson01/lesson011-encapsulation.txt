@@ -1,0 +1,54 @@
+﻿// See https://aka.ms/new-console-template for more information
+// Console.WriteLine("Hello, World!");
+/*
+封裝(encapsulation)是物件導向程式設計的重要概念之一，目的是保護欄位，不讓欄位直接被外界程式存取及修改，而在C#中的主要做法是將欄位宣告為# private, 也就是設定為私有欄位。
+*/
+
+using System;
+
+namespace Demo
+{
+    class Timer
+    {
+        private int _seconds = 0; // 這是一個私有的封裝欄位 '_seconds'，用來記錄總秒數。底線是命名慣例，但不是必須的。
+
+        public Timer(int s)
+        {
+            _seconds = s; // 建構函式：使用傳入的 's' 參數來初始化 '_seconds' 欄位。
+        }
+
+        public int Minutes
+        {
+            get { return _seconds / 60; } // 'get' 屬性：計算並返回從 '_seconds' 欄位中獲取的分鐘數。
+            set
+            {
+                _seconds += value * 60; // 'set' 屬性：接收表示分鐘數的值，並將其轉換為相等的秒數，然後更新 '_seconds' 欄位。
+            }
+        }
+
+        public int Seconds
+        {
+            get { return _seconds % 60; } // 'get' 屬性：計算並返回移除完整分鐘後剩餘的秒數。
+            set
+            {
+                _seconds += value; // 'set' 屬性：接收表示秒數的值並直接更新 '_seconds' 欄位。
+            }
+        } // 這些屬性提供了存取 '_seconds' 欄位的方式，並將內部時間表示封裝起來。
+
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Timer t = new Timer(699); // 創建一個新的 Timer 物件 't'，並設置初始總秒數為 699。
+            Console.WriteLine("{0}:{1}", t.Minutes, t.Seconds); // 使用屬性印出 't' 的分鐘和秒數，格式為 "分鐘:秒數"。
+
+            t.Seconds = 10; // 透過屬性將 't' 的時間增加 10 秒。
+            Console.WriteLine("{0}:{1}", t.Minutes, t.Seconds); // 再次印出更新後的分鐘和秒數。
+
+            t.Minutes = 19; // 透過屬性將 't' 的時間增加 19 分鐘（相當於 1140 秒）。
+            Console.WriteLine("{0}:{1}", t.Minutes, t.Seconds); // 印出更新後的最終分鐘和秒數。
+        }
+    }
+}
